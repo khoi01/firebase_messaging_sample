@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "365929670317",
+    "project_id": "fb-notify-sample-1",
+    "storage_bucket": "fb-notify-sample-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365929670317:android:9eca6380ab651b4b74c824",
+        "android_client_info": {
+          "package_name": "com.khoi.firebase_messaging_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365929670317-d1ovmlkd8rlq8p48ghh169pd70d008a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFM2JYyYFvy02PokIm_lQzyICxe7KFKFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365929670317-d1ovmlkd8rlq8p48ghh169pd70d008a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365929670317:android:90d27d611ed0654874c824",
+        "android_client_info": {
+          "package_name": "com.khoi.simpleNotifyApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365929670317-d1ovmlkd8rlq8p48ghh169pd70d008a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFM2JYyYFvy02PokIm_lQzyICxe7KFKFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365929670317-d1ovmlkd8rlq8p48ghh169pd70d008a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
