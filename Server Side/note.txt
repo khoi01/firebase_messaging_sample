@@ -1,0 +1,1 @@
+paste this project at htdocs (xampp) or www (laragon) folder
