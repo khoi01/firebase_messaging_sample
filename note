@@ -1,0 +1,39 @@
+-------------------
+Testing Curl Format
+-------------------
+
+1.https://reqbin.com/curl
+2.postman api
+
+
+------------------------------------
+Example send notification using curl (Specific Device)
+------------------------------------
+curl -X POST --header "Authorization: key=AAAAVTMbpq0:APA91bHqQ7HlF_2CaZnXchJcs2DTgBlVSp1Gw1TTWvTJ3f8B7URCGnRI_CXv8-paD6iShi9sG5ZLq3mXkLCOTs9L8Z8HUJ7kDFVQNp0rI2JO8F9kgfTuzZzk2G7atZhTEMxcKuwEbrvW" \
+    --header "Content-Type: application/json" \
+    https://fcm.googleapis.com/fcm/send \
+    -d "{\"to\":\"c8U9piEhTbyVN_3RSAtvsl:APA91bHz2HfmIP2ldP9AvTWhDV8qovW5wXihvq5S-ARvdf_aSp05lFQH8a4cu86GBVY5-rYaLxH4B1yMXpCBGuNHqH8wEAEwNOtSKmYFsxnZISqNmO0xYVzCmkCFSTNQ0dLQt9F4HFst\",\"notification\":{\"title\":\"Hello\",\"body\":\"Yellow\"}}"
+
+
+FORMAT:
+
+
+curl -X POST --header "Authorization: key=<SERVER KEY>" \
+    --header "Content-Type: application/json" \
+    https://fcm.googleapis.com/fcm/send \
+    -d "{\"to\":\"<SPECIFIC DEVICE TOKEN>\",\"notification\":{\"title\":\"Hello\",\"body\":\"Yellow\"}}"
+
+
+------------------------------------
+Example send notification using curl (By Topic)
+------------------------------------
+
+curl -X POST --header "Authorization: key=AAAAVTMbpq0:APA91bHqQ7HlF_2CaZnXchJcs2DTgBlVSp1Gw1TTWvTJ3f8B7URCGnRI_CXv8-paD6iShi9sG5ZLq3mXkLCOTs9L8Z8HUJ7kDFVQNp0rI2JO8F9kgfTuzZzk2G7atZhTEMxcKuwEbrvW" \
+    --header "Content-Type: application/json" \
+    https://fcm.googleapis.com/fcm/send \
+    -d "{\"to\":\"\/topics\/sample\",\"notification\":{\"title\":\"Hello\",\"body\":\"Yellow\"}}"
+
+
+
+
+
