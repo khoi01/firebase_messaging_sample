@@ -34,6 +34,14 @@ curl -X POST --header "Authorization: key=AAAAVTMbpq0:APA91bHqQ7HlF_2CaZnXchJcs2
     -d "{\"to\":\"\/topics\/sample\",\"notification\":{\"title\":\"Hello\",\"body\":\"Yellow\"}}"
 
 
+FORMAT
+
+curl -X POST --header "Authorization: key=<SERVER KEY>" \
+    --header "Content-Type: application/json" \
+    https://fcm.googleapis.com/fcm/send \
+    -d "{\"to\":\"\/topics\/<TOPIC>\",\"notification\":{\"title\":\"Hello\",\"body\":\"Yellow\"}}"
+
+
 
 
 
